@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj": {}
+  },
+  "projects": {
+    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj",
+        "projectName": "Test.DbRepository",
+        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj",
+        "packagesPath": "/Users/andreslietti/.nuget/packages/",
+        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
+                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj"
+              },
+              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj": {
+                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj",
+        "projectName": "Test.Domain",
+        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj",
+        "packagesPath": "/Users/andreslietti/.nuget/packages/",
+        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj",
+        "projectName": "Test.Repository",
+        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj",
+        "packagesPath": "/Users/andreslietti/.nuget/packages/",
+        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
+                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

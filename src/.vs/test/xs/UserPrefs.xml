@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{47B24CCD-4834-4D80-A0A2-64E529B0E37B}|SoliSYSTEMS.ServiceTemplate.API">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test.Application.UnitTests/UnitTest.cs">
+    <Files>
+      <File FileName="Test.API/Validators/CreateCompanyCommandValidator.cs" Line="6" Column="85" />
+      <File FileName="Test.API/Controllers/CompanyController.cs" Line="43" Column="34" />
+      <File FileName="Test.Application/Commands/Company/CreateCompanyCommand.cs" Line="6" Column="15" />
+      <File FileName="Test.Application/Validators/Company/CreateCompanyValidator.cs" Line="20" Column="40" />
+      <File FileName="Test.Application/Queries/Company/CompanyQueries.cs" Line="1" Column="1" />
+      <File FileName="Test.DbRepository/Repositories/CompanyRepository.cs" Line="16" Column="9" />
+      <File FileName="Test.API/Validators/CreateEmployeeCommandValidator.cs" Line="21" Column="38" />
+      <File FileName="Test.Application/Validators/Employee/CreateEmployeeValidator.cs" Line="19" Column="83" />
+      <File FileName="Test.Repository/IEmployeeRepository.cs" Line="7" Column="20" />
+      <File FileName="Test.Repository/ICompanyRepository.cs" Line="10" Column="16" />
+      <File FileName="Test.DbRepository/Repositories/EmployeeRepository.cs" Line="14" Column="21" />
+      <File FileName="Test.Domain/Entities/Employee.cs" Line="5" Column="14" />
+      <File FileName="Test.API/Controllers/EmployeeController.cs" Line="27" Column="83" />
+      <File FileName="Test.Application/Commands/Employee/CreateEmployeeCommand.cs" Line="7" Column="96" />
+      <File FileName="Test.Application/Commands/Employee/CreateEmployeeCommandHandler.cs" Line="25" Column="117" />
+      <File FileName="Test.Domain/Entities/Company.cs" Line="5" Column="21" />
+      <File FileName="Test.Application/DTOs/Company/CompanyAutoMapper.cs" Line="9" Column="19" />
+      <File FileName="Test.Application.UnitTests/UnitTest.cs" Line="6" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test" expanded="True">
+            <Node name="Database" expanded="True">
+              <Node name="Test.Migrations" expanded="True">
+                <Node name="Migrations" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Tests" expanded="True">
+              <Node name="Test.Application.UnitTests" expanded="True">
+                <Node name="UnitTest.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Test.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Test.Application" expanded="True" />
+            <Node name="Test.Repository" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="test" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test.API PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

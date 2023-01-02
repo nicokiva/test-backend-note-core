@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.API/SoliSYSTEMS.ServiceTemplate.API.csproj": {}
+  },
+  "projects": {
+    "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.API/SoliSYSTEMS.ServiceTemplate.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.API/SoliSYSTEMS.ServiceTemplate.API.csproj",
+        "projectName": "SoliSYSTEMS.ServiceTemplate.API",
+        "projectPath": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.API/SoliSYSTEMS.ServiceTemplate.API.csproj",
+        "packagesPath": "/Users/emilio/.nuget/packages/",
+        "outputPath": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emilio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://75.51.221.86:8080/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.Application/Test.Application.csproj": {
+                "projectPath": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.Application/Test.Application.csproj"
+              },
+              "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.DbRepository/Test.DbRepository.csproj": {
+                "projectPath": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.DbRepository/Test.DbRepository.csproj"
+              },
+              "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.Migrations/Test.Migrations.csproj": {
+                "projectPath": "/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/Test.Migrations/Test.Migrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

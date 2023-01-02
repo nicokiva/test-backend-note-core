@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=Pass@word
+      - POSTGRES_USER=developer
+      - POSTGRES_DB=solis-demo
+    ports:
+      - "54444:5432"

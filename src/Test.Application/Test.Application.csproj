@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.1.22076.8" />
+      <PackageReference Include="Serilog" Version="2.11.0-dev-01380" />
+      <PackageReference Include="Scrutor" Version="3.3.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
+      <PackageReference Include="DotNetCore.CAP" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Test.Domain\Test.Domain.csproj" />
+      <ProjectReference Include="..\Test.Repository\Test.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Commands\Employee\" />
+      <None Remove="DTOs\Employee\" />
+      <None Remove="Validators\Employee\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Commands\Employee\" />
+      <Folder Include="DTOs\Employee\" />
+      <Folder Include="Validators\Employee\" />
+    </ItemGroup>
+</Project>

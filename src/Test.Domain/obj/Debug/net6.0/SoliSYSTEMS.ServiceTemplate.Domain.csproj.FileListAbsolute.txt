@@ -1,0 +1,12 @@
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/bin/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.deps.json
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/bin/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.dll
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/bin/Debug/net6.0/ref/SoliSYSTEMS.ServiceTemplate.Domain.dll
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/bin/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.pdb
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.csproj.AssemblyReference.cache
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.AssemblyInfoInputs.cache
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.AssemblyInfo.cs
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.csproj.CoreCompileInputs.cache
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.dll
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/ref/SoliSYSTEMS.ServiceTemplate.Domain.dll
+/Users/emilio/Development/Solisystems/interviews/tests/dotnet-service-template/src/SoliSYSTEMS.ServiceTemplate.Domain/obj/Debug/net6.0/SoliSYSTEMS.ServiceTemplate.Domain.pdb
