@@ -15,4 +15,9 @@ public class CompanyRepository: EntityFrameworkRepository<Company>, ICompanyRepo
     {
         return await DbContext.Set<Company>().AnyAsync(c => c.Code == companyCode);
     }
+
+    public async Task<bool> CompanyExistsByIdAsync(Guid companyId)
+    {
+        return await DbContext.Set<Company>().AnyAsync(c => c.Id.Equals(companyId));
+    }
 }

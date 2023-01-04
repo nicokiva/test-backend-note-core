@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj": {}
+    "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.DbRepository\\Test.DbRepository.csproj": {}
   },
   "projects": {
-    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj": {
+    "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.DbRepository\\Test.DbRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.DbRepository\\Test.DbRepository.csproj",
         "projectName": "Test.DbRepository",
-        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/Test.DbRepository.csproj",
-        "packagesPath": "/Users/andreslietti/.nuget/packages/",
-        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.DbRepository/obj/",
+        "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.DbRepository\\Test.DbRepository.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.DbRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
-                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj"
+              "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj"
               },
-              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj": {
-                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj"
+              "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\Test.Repository.csproj": {
+                "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\Test.Repository.csproj"
               }
             }
           }
@@ -86,26 +88,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
+    "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj",
         "projectName": "Test.Domain",
-        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj",
-        "packagesPath": "/Users/andreslietti/.nuget/packages/",
-        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/obj/",
+        "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -145,34 +149,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj": {
+    "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\Test.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\Test.Repository.csproj",
         "projectName": "Test.Repository",
-        "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/Test.Repository.csproj",
-        "packagesPath": "/Users/andreslietti/.nuget/packages/",
-        "outputPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Repository/obj/",
+        "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\Test.Repository.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreslietti/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj": {
-                "projectPath": "/Users/andreslietti/Documents/Andres/Projects/SoliSystemTest/test-project/src/Test.Domain/Test.Domain.csproj"
+              "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nico\\Downloads\\test-project-backend\\src\\Test.Domain\\Test.Domain.csproj"
               }
             }
           }
@@ -208,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

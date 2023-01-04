@@ -5,6 +5,7 @@ using Test.API.DTOs.Errors;
 using Test.Application.Commands.Employee;
 using Test.Application.DTOs.Employee;
 using Test.Application.Queries.Company;
+using Test.Application.Queries.Employee;
 
 namespace Test.API.Controllers
 {
@@ -15,10 +16,13 @@ namespace Test.API.Controllers
         private readonly IMediator _mediator;
         private readonly ICompanyQueries _companyQueries;
 
-        public EmployeeController(IMediator mediator, ICompanyQueries companyQueries)
+        private readonly IEmployeeQueries _employeeQueries;
+
+        public EmployeeController(IMediator mediator, ICompanyQueries companyQueries, IEmployeeQueries employeeQueries)
         {
             _mediator = mediator;
             _companyQueries = companyQueries;
+            _employeeQueries = employeeQueries;
         }
 
         [HttpPost]
