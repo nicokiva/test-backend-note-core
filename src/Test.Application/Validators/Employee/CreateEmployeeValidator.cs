@@ -35,7 +35,7 @@ namespace Test.Application.Validators.Employee
             if (employee) {
                 return ValidationResult.Fail(new FieldError(nameof(request.idNumber), "Already exists"));
             }
-
+            
             if (request.dateOfBirth > DateTime.Now) {
                 return ValidationResult.Fail(new FieldError(nameof(request.dateOfBirth), "Invalid date"));
             }

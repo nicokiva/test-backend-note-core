@@ -28,7 +28,7 @@ public class Employee : Entity
 
     private Employee(
         Guid id,
-        string name,
+        string fullName,
         string idNumber,
         DateTime dateOfBirth,
         Guid company,
@@ -37,7 +37,7 @@ public class Employee : Entity
         DateTime createdAt,
         DateTime updatedAt) : base(id, createdBy, updatedBy, createdAt, updatedAt)
     {
-        FullName = name;
+        FullName = fullName;
         IdNumber = idNumber;
         DateOfBirth = dateOfBirth;
         Company = company;

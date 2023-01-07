@@ -22,6 +22,52 @@ namespace Test.Migrations.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("SoliSYSTEMS.ServiceTemplate.Domain.Entities.Employee", b => {
+                b.Property<string>("fullName")
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnType("character varying(100)")
+                    .HasColumnName("fullName");
+
+                b.Property<string>("idNumber")
+                    .IsRequired()
+                    .HasMaxLength(10)
+                    .HasColumnType("character varying(10)")
+                    .HasColumnName("idNumber");
+
+                b.Property<DateTime>("dateOfBirth")
+                    .IsRequired()
+                    .HasColumnType("timestamp without time zone")
+                    .HasColumnName("dateOfBirth");
+
+                b.Property<Guid>("company")
+                    .IsRequired()
+                    .HasColumnType("uuid")
+                    .HasColumnName("companyId");
+
+                b.Property<DateTime>("CreatedAt")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("timestamp with time zone")
+                    .HasColumnName("created_at")
+                    .HasDefaultValueSql("NOW()");
+
+                b.Property<string>("CreatedBy")
+                    .HasMaxLength(256)
+                    .HasColumnType("character varying(256)")
+                    .HasColumnName("created_by");
+
+                b.Property<DateTime>("UpdatedAt")
+                    .ValueGeneratedOnAddOrUpdate()
+                    .HasColumnType("timestamp with time zone")
+                    .HasColumnName("updated_at")
+                    .HasDefaultValueSql("NOW()");
+
+                b.Property<string>("UpdatedBy")
+                    .HasMaxLength(256)
+                    .HasColumnType("character varying(256)")
+                    .HasColumnName("updated_by");
+            });
+
             modelBuilder.Entity("SoliSYSTEMS.ServiceTemplate.Domain.Entities.Company", b =>
                 {
                     b.Property<Guid>("Id")
