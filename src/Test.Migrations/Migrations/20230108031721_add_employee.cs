@@ -14,6 +14,7 @@ namespace Test.Migrations.Migrations
                 {
                     id = table.Column<Guid>(type: "uuid", nullable: false),
                     full_name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    id_number = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
                     date_of_birth = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     company = table.Column<Guid>(type: "uuid", nullable: false),
                     xmin = table.Column<uint>(type: "xid", rowVersion: true, nullable: false),
