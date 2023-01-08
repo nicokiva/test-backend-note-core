@@ -5,9 +5,6 @@ namespace Test.Application.Queries.Employee;
 
 public interface IEmployeeQueries: IQueriesCollection
 {
-    Task<QueryResponse<CompanyDTO>> GetEmployeeByIdAsync(Guid employeeId,
-        CancellationToken cancellationToken = default(CancellationToken));
-
-    Task<QueryPaginatedResponseDTO<CompaniesDTO>> ListEmployees(
+    Task<QueryResponse<EmployeeDTO>> GetEmployeeByIdAsync(Guid employeeId,
         CancellationToken cancellationToken = default(CancellationToken));
 }

@@ -5,7 +5,7 @@ namespace Test.Application.Queries.Company;
 
 public interface ICompanyQueries: IQueriesCollection
 {
-    Task<QueryResponse<CompanyDTO>> GetCompanyByIdAsync(Guid companyId,
+    Task<QueryResponse<EmployeeDTO>> GetCompanyByIdAsync(Guid companyId,
         CancellationToken cancellationToken = default(CancellationToken));
 
     Task<QueryPaginatedResponseDTO<CompaniesDTO>> ListCompanies(

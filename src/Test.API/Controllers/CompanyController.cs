@@ -24,9 +24,9 @@ public class CompanyController : Controller
     }
     
     [HttpGet("{id:guid}")]
-    [ProducesResponseType(typeof(CompanyDTO), (int)HttpStatusCode.OK)]
+    [ProducesResponseType(typeof(EmployeeDTO), (int)HttpStatusCode.OK)]
     [ProducesResponseType(typeof(NotFoundDTO), (int)HttpStatusCode.NotFound)]
-    public async Task<ActionResult<QueryResponse<CompanyDTO>>> Get(Guid id, CancellationToken cancellationToken)
+    public async Task<ActionResult<QueryResponse<EmployeeDTO>>> Get(Guid id, CancellationToken cancellationToken)
     {
         return await _companyQueries.GetCompanyByIdAsync(id, cancellationToken);
     }
@@ -40,7 +40,7 @@ public class CompanyController : Controller
     }
 
     [HttpPost]
-    [ProducesResponseType(typeof(CompanyDTO), (int)HttpStatusCode.OK)]
+    [ProducesResponseType(typeof(EmployeeDTO), (int)HttpStatusCode.OK)]
     [ProducesResponseType(typeof(BadRequestResponseDTO), (int)HttpStatusCode.BadRequest)]
     public async Task<ActionResult<CreateCompanyResponse>> Create(CreateCompanyCommand command, CancellationToken cancellationToken)
     {

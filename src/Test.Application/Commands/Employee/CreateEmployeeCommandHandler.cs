@@ -28,8 +28,11 @@ public class CreateEmployeeCommandHandler: IRequestHandler<CreateEmployeeCommand
         _logger.LogInformation("----- Creating Employee - Name: {@FullName} - IdNumber: {@IdNumber}", request.fullName, request.idNumber);
         
         employee = await _unitOfWork.EmployeeRepository.CreateAsync(employee, cancellationToken);
+        try {
         await _unitOfWork.SaveEntitiesAsync(cancellationToken);
-
+} catch (Exception e) {
+            int a = 1;
+        }
         return new CreateEmployeeResponse
         {
             Result = _mapper.Map<EmployeeDTO>(employee)

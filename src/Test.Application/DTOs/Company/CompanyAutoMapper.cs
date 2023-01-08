@@ -6,6 +6,6 @@ public class CompanyAutoMapper: Profile
 {
     public CompanyAutoMapper()
     {
-        CreateMap<Domain.Entities.Company, CompanyDTO>().ReverseMap();
+        CreateMap<Domain.Entities.Company, EmployeeDTO>().ReverseMap();
     }
 }

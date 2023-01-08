@@ -32,7 +32,7 @@ public class CreateCompanyCommandHandler: IRequestHandler<CreateCompanyCommand, 
 
         return new CreateCompanyResponse
         {
-            Result = _mapper.Map<CompanyDTO>(company)
+            Result = _mapper.Map<EmployeeDTO>(company)
         };
     }
 }
