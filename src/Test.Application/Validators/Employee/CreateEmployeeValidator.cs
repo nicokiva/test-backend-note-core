@@ -23,8 +23,12 @@ namespace Test.Application.Validators.Employee
             •	Company: Debe ser un Id de company valido.
             */
 
-            if (string.IsNullOrEmpty(request.fullName) || request.fullName.Length > 100) {
-                return ValidationResult.Fail(new FieldError(nameof(request.fullName), "Full name to large"));
+            if (string.IsNullOrEmpty(request.fullName)) {
+                return ValidationResult.Fail(new FieldError(nameof(request.fullName), "Full name cannot be empty"));
+            }
+
+            if (request.fullName.Length > 100) {
+                return ValidationResult.Fail(new FieldError(nameof(request.fullName), "Full name too large"));
             }
 
             if (string.IsNullOrEmpty(request.idNumber)) {
@@ -36,7 +40,7 @@ namespace Test.Application.Validators.Employee
                 return ValidationResult.Fail(new FieldError(nameof(request.idNumber), "Already exists"));
             }
             
-            if (request.dateOfBirth > DateTime.Now) {
+            if (request.dateOfBirth > DateTime.UtcNow) {
                 return ValidationResult.Fail(new FieldError(nameof(request.dateOfBirth), "Invalid date"));
             }
 
